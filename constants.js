@@ -1,4 +1,5 @@
-export const TILE_SIZE = 23;
+export const TILE_SIZE =
+  window.innerWidth < 1035 ? Math.floor(window.innerWidth / 45) : 23;
 export const VELOCITY = 1;
 export const PACMAN_ANIMATION_TIMER = 10;
 export const DOT_ANIMATION_TIMER = 30;

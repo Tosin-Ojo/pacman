@@ -74,6 +74,11 @@ h1 {
   text-align: center;
   font-family: cursive;
   color: #880015;
+  font-size: clamp(1rem, 10vw, 2rem);
+}
+
+#game__info {
+  font-size: clamp(1rem, 10vw, 2rem);
 }
 
 .game__over {
